@@ -1,0 +1,35 @@
+.App {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg1 {
+    background-image: url("/public/images/planeta1.png") , url("/public/images/bg1.jpg") ;
+    .container .info p{
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(184, 128, 252, 0.3));
+    }
+    
+}
+
+.bg2 {
+    background-image: url("/public/images/planeta2.png"), url("/public/images/bg2.jpg") ; 
+    .container .info p{
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(188, 246, 255, 0.3));
+    }
+}
+
+.bg3 {
+    background-image: url("/public/images/planeta3.png"), url("/public/images/bg3.jpg") ;
+    .container .info p{
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(245, 180, 252, 0.2));
+    }
+}
+
+.bg4 {
+    background-image: url("/public/images/planeta4.png"), url("/public/images/bg4.jpg") ;
+    .container .info p{
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 188, 188, 0.4));
+    }
+}
+
