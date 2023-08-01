@@ -1,5 +1,6 @@
 
 import '/src/components/Styles/QuoteBox.css'
+import logo from "/public/images/refresh-outline.svg"
 
 const QuoteBox = ({handleChangeQuote, quote}) => {
   return (
@@ -8,7 +9,7 @@ const QuoteBox = ({handleChangeQuote, quote}) => {
       
       <section className='info'>
         <p>{quote.phrase}</p>
-        <button onClick={handleChangeQuote}><img src="/public/images/refresh-outline.svg" alt="" className='refresh'/></button>
+        <button onClick={handleChangeQuote}><img src={logo}alt="" className='refresh'/></button>
       </section>
 
       <footer>
